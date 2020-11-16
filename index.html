@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator by Filip Kaczmarek</title>
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- FONT GOOGLE - Roboto Mono-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- JavaScript Synchro -->
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <div class="calculator-size results">
+        <p class="mathematical-operation"></p>
+        <p class="final-results"></p>
+      </div>
+      <div class="calculator-size calculator-background">
+        <div class="calculator-keyboard">
+          <div class="keyboard-grid">
+            <button class="buttonDiv delete" data-delete>C</button>
+            <button class="buttonDiv plus-and-minus" data-operation>+/-</button>
+            <button class="buttonDiv percent" data-operation>%</button>
+            <button class="buttonDiv root" data-operation>√</button>
+            <button class="buttonDiv divide" data-operation>÷</button>
+            <button class="buttonDiv multiply" data-operation>x</button>
+            <button class="buttonDiv minus" data-operation>-</button>
+            <button class="buttonDiv plus" data-operation>+</button>
+            <button class="buttonDiv one" data-number>1</button>
+            <button class="buttonDiv two" data-number>2</button>
+            <button class="buttonDiv three" data-number> 3</button>
+            <button class="buttonDiv four" data-number>4</button>
+            <button class="buttonDiv five" data-number>5</button>
+            <button class="buttonDiv six" data-number>6</button>
+            <button class="buttonDiv seven" data-number>7</button>
+            <button class="buttonDiv eight" data-number>8</button>
+            <button class="buttonDiv nine" data-number>9</button>
+            <button class="buttonDiv zero" data-number>0</button>
+            <button class="buttonDiv dot" data-number>.</button>
+            <button class="buttonDiv zerozero" data-number>00</button>
+          </div>
+        </div>
+      </div>
+      <button class="calculator-size equal" data-equals>=</button>
+    </div>
+  </body>
+</html>
